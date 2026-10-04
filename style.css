@@ -300,3 +300,31 @@ body{font-size:18px}
   .contact-form-wrap button{font-size:12px}
   .footer p{font-size:10px}
 }
+
+/* Make contact information and form controls easier to read. */
+.closing-panels .contact-copy .eyebrow{font-size:14px}
+.closing-panels .contact-copy h2{font-size:34px}
+.closing-panels .contact-copy>p:not(.eyebrow){font-size:17px;line-height:1.65}
+.closing-panels .contact-details a{font-size:15px;line-height:1.55;padding:9px 8px}
+.closing-panels .contact-details a span{font-size:12px}
+.closing-panels .contact-details a b{font-size:15px}
+.closing-panels .contact-form-wrap h3{font-size:18px}
+.closing-panels .contact-form-wrap>p{font-size:12px;line-height:1.5}
+.closing-panels .contact-form-wrap label{font-size:13px}
+.closing-panels .contact-form-wrap input,.closing-panels .contact-form-wrap textarea{font-size:14px;padding:10px 11px}
+.closing-panels .contact-form-wrap textarea{min-height:90px}
+.closing-panels .contact-form-wrap button{font-size:14px;min-height:42px}
+.closing-panels .contact-form-wrap .form-note{font-size:11px}
+@media(max-width:699px){
+  .closing-panels .contact-copy .eyebrow{font-size:11px}
+  .closing-panels .contact-copy h2{font-size:25px}
+  .closing-panels .contact-copy>p:not(.eyebrow){font-size:14px}
+  .closing-panels .contact-details a{font-size:12px;padding:7px 5px}
+  .closing-panels .contact-details a span{font-size:10px}
+  .closing-panels .contact-details a b{font-size:12px}
+  .closing-panels .contact-form-wrap h3{font-size:15px}
+  .closing-panels .contact-form-wrap>p{font-size:11px}
+  .closing-panels .contact-form-wrap label{font-size:11px}
+  .closing-panels .contact-form-wrap input,.closing-panels .contact-form-wrap textarea{font-size:13px}
+  .closing-panels .contact-form-wrap button{font-size:13px}
+}
