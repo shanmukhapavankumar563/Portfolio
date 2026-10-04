@@ -87,8 +87,3 @@ contactForm.addEventListener('submit', (event) => {
   window.location.href = `mailto:${recipient}?subject=${subject}&body=${body}`;
 });
 
-const resumeLink = document.querySelector('.resume-link');
-const resumeMissing = document.querySelector('.resume-missing');
-fetch(resumeLink.getAttribute('href'), { method: 'HEAD' }).then((response) => {
-  if (!response.ok) resumeMissing.hidden = false;
-}).catch(() => { resumeMissing.hidden = false; });
