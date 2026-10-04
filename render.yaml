@@ -1,6 +1,6 @@
 ﻿services:
   - type: web
-    name: shanmukha-portfolio
+    name: shanmukha-pavan-kumar-portfolio-563
     runtime: static
     branch: main
     buildCommand: mkdir -p public && cp index.html style.css script.js public/ && cp -R assets resume public/
