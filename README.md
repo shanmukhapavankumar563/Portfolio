@@ -19,3 +19,7 @@ Then open `http://localhost:8000`.
 ## Contact form
 
 The form opens a prefilled message in the visitor?s email application using the email address in the portfolio. It does not send or store messages through a website backend.
+
+## Deploy to Render
+
+This repository includes a `render.yaml` Blueprint for the static portfolio. In Render, choose **New ? Blueprint**, connect this GitHub repository, and select the `main` branch. Render will build and publish the site, then automatically deploy future pushes to `main`.
