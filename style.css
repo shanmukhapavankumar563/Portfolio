@@ -160,3 +160,13 @@ body{background:#f7f9fc}
 .credential-list p{display:flex;justify-content:space-between;gap:12px;font-size:11px;color:var(--muted);margin:4px 0 0}
 .credential-list p span{flex:none;color:#0867f8;font:500 10px var(--mono)}
 @media(max-width:699px){.credential-list{gap:7px;margin-top:9px}.credential-list li{padding:8px 10px}.credential-list h3{font-size:12px}.credential-list p{font-size:10px}}
+
+.closing-panels .credentials-inner{gap:0}
+.credential-group{margin-top:11px}
+.credential-group>h3{font:700 12px/1.4 var(--display);margin:0;color:#0867f8}
+.credential-group .credential-list{gap:7px;margin-top:6px}
+.credential-group .credential-list li{padding:8px 10px}
+.credential-list h4{font:700 11px/1.4 var(--display);margin:0;color:var(--ink)}
+.credential-list p{display:block;font-size:10px;line-height:1.45;margin:3px 0 0}
+.credential-list p span{float:right;margin-left:8px}
+@media(max-width:699px){.credential-group{margin-top:9px}.credential-group .credential-list{gap:6px}.credential-group .credential-list li{padding:7px 9px}.credential-group>h3{font-size:11px}.credential-list h4{font-size:10px}.credential-list p{font-size:9px}}
