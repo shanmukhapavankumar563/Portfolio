@@ -237,3 +237,66 @@ body{font-size:16px}
   .contact-form-wrap input,.contact-form-wrap textarea{font-size:11px}
   .footer p{font-size:9px}
 }
+
+/* Second readability pass: use comfortably readable sizes across the full site. */
+body{font-size:18px}
+.nav-links{font-size:14px}
+.hero-role{font-size:18px}
+.hero-description{font-size:18px;line-height:1.65}
+.eyebrow,.micro-label{font-size:12px}
+.button{font-size:14px}
+.section-heading h2,.about-grid h2,.education-grid h2{font-size:29px}
+.about-copy p{font-size:17px;line-height:1.75}
+.skill-card h3{font-size:17px}
+.skill-card li{font-size:13px}
+.project-card h3{font-size:18px;line-height:1.4;min-height:2.8em}
+.project-content>p{font-size:15px;line-height:1.6;min-height:6.4em}
+.tag-list span{font-size:11px;padding:4px 7px}
+.project-links a{font-size:13px;padding:8px 11px}
+.education-list .edu-record h3{font-size:16px;line-height:1.5}
+.education-list .edu-record p{font-size:14px;line-height:1.55}
+.edu-record .education-date{font-size:12px}
+.credentials-inner h2{font-size:29px}
+.credential-group>h3{font-size:16px}
+.credential-list h4{font-size:15px}
+.credential-list p{font-size:13px;line-height:1.6}
+.contact-copy h2{font-size:30px}
+.contact-copy>p:not(.eyebrow){font-size:15px;line-height:1.65}
+.contact-details a{font-size:13px}
+.contact-details a span{font-size:11px}
+.contact-form-wrap label{font-size:12px}
+.contact-form-wrap input,.contact-form-wrap textarea{font-size:14px}
+.contact-form-wrap button{font-size:14px}
+.form-note{font-size:11px}
+.footer p{font-size:12px}
+@media(max-width:699px){
+  body{font-size:16px}
+  .nav-links{font-size:15px}
+  .hero-role{font-size:14px}
+  .hero-description{font-size:16px}
+  .eyebrow,.micro-label{font-size:10px}
+  .button{font-size:13px}
+  .section-heading h2,.about-grid h2,.education-grid h2{font-size:24px}
+  .about-copy p{font-size:15px}
+  .skill-card h3{font-size:14px}
+  .skill-card li{font-size:11px}
+  .project-card h3{font-size:15px;line-height:1.35;min-height:2.7em}
+  .project-content>p{font-size:12px;line-height:1.5;min-height:7.5em}
+  .tag-list span{font-size:9px;padding:3px 5px}
+  .project-links a{font-size:10px;padding:6px 8px}
+  .education-list .edu-record h3{font-size:13px}
+  .education-list .edu-record p{font-size:12px}
+  .edu-record .education-date{font-size:10px}
+  .credentials-inner h2{font-size:23px}
+  .credential-group>h3{font-size:13px}
+  .credential-list h4{font-size:12px}
+  .credential-list p{font-size:11px}
+  .contact-copy h2{font-size:22px}
+  .contact-copy>p:not(.eyebrow){font-size:13px}
+  .contact-details a{font-size:11px}
+  .contact-details a span{font-size:9px}
+  .contact-form-wrap label{font-size:11px}
+  .contact-form-wrap input,.contact-form-wrap textarea{font-size:12px}
+  .contact-form-wrap button{font-size:12px}
+  .footer p{font-size:10px}
+}
